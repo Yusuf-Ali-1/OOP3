@@ -1,5 +1,8 @@
 package com.tts.day3;
 
+import com.tts.day3.abs.Guitar;
+import com.tts.day3.abs.Trumpet;
+
 // a class is a blueprint to create an object
 // an object is going to be an instance of class
 public class Main {
@@ -10,6 +13,11 @@ public class Main {
         // make an instance of vehicle
         Vehicle myVehicle = new Vehicle();
         System.out.println(myVehicle.wheels);
+
+        Guitar myGuiter  = new Guitar();
+        Trumpet myTrumpet = new Trumpet();
+
+        System.out.println();
 
 
     }
