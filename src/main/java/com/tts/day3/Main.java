@@ -1,6 +1,7 @@
 package com.tts.day3;
 
 import com.tts.day3.abs.Guitar;
+import com.tts.day3.abs.Shoe;
 import com.tts.day3.abs.Trumpet;
 
 // a class is a blueprint to create an object
@@ -19,6 +20,17 @@ public class Main {
 
         System.out.println(myTrumpet.createSound());
         System.out.println(myGuiter.createSound());
+
+
+        System.out.println("\n======= Shoe =======");
+
+        Shoe myShoe = new Shoe() {
+            @Override
+            public void getLaces() {
+
+            }
+        };
+
 
 
     }
