@@ -12,7 +12,7 @@ public enum VehicleClassification {
     private boolean warranty;
     private boolean freeService;
 
-
+    // These two methods are our "getters" for the fields above
     public boolean WarrantyOffered()
     {
         return warranty;

@@ -67,6 +67,13 @@ public class Main {
         System.out.println(myLightTruck.getVehicleClassification());
 
 
+        // We can't access private constructor for VehicleClassification
+        // enum constructors have private access by default
+        // This method below is illegal
+        //VehicleClassification vehicleClassification = new VehicleClassification();
+
+
+
 
 
 
