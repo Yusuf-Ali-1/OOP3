@@ -4,6 +4,7 @@ import com.tts.day3.abs.Guitar;
 import com.tts.day3.abs.Shoe;
 import com.tts.day3.abs.Trumpet;
 import com.tts.day3.abs.WingTips;
+import com.tts.day3.dealership.LightTruck;
 import com.tts.day3.enumeration.Day;
 import com.tts.day3.enumeration.EnumTest;
 
@@ -39,7 +40,7 @@ public class Main {
         wingTips.getLaces();
         wingTips.getLaces();
 
-        System.out.println("====== Enums  =====");
+        System.out.println("\n====== Enums  =====");
 
 
         EnumTest weekday = new EnumTest(Day.MONDAY);
@@ -47,6 +48,14 @@ public class Main {
 
         EnumTest weekend = new EnumTest(Day.SATURDAY);
         weekend.weekendOrWeekday();
+
+
+        System.out.println("\n ======LightTruck ====");
+        LightTruck myLightTruck = new LightTruck(true);
+        System.out.println(myLightTruck.transferCase);
+        System.out.println();
+
+
 
 
 
