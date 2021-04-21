@@ -61,6 +61,7 @@ public class Main {
 
         System.out.println("====== Dealership ====");
 
+        /// Set myLightTruck VehicleClassification to NEW
         myLightTruck.setVehicleClassification(VehicleClassification.NEW);
 
         System.out.println(myLightTruck.getVehicleClassification());
