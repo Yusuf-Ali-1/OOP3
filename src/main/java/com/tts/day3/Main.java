@@ -18,6 +18,7 @@ public class Main {
         Trumpet myTrumpet = new Trumpet();
 
         System.out.println(myTrumpet.createSound());
+        System.out.println(myGuiter.createSound());
 
 
     }
