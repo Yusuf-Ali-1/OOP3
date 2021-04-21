@@ -55,6 +55,10 @@ public class Main {
         System.out.println(myLightTruck.transferCase.getNumGears());
         System.out.println();
 
+        //        myLightTruck.transferCase.setNumGears(4);
+        System.out.println(myLightTruck.transferCase.getNumGears());
+
+
 
 
 
