@@ -52,7 +52,7 @@ public class Main {
 
         System.out.println("\n ======LightTruck ====");
         LightTruck myLightTruck = new LightTruck(true);
-        System.out.println(myLightTruck.transferCase);
+        System.out.println(myLightTruck.transferCase.getNumGears());
         System.out.println();
 
 
