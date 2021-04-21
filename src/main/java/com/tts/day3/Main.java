@@ -63,6 +63,8 @@ public class Main {
 
         myLightTruck.setVehicleClassification(VehicleClassification.NEW);
 
+        System.out.println(myLightTruck.getVehicleClassification());
+
 
 
 
