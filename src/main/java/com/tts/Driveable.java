@@ -7,7 +7,7 @@ public interface Driveable {
     // implement this interface
 
 
-    //these methods do not have a body
+    // these methods do not have a body
     // methods in interfaces do not have implementations
     void changeGear(int a);
     void accelerate(int a);
