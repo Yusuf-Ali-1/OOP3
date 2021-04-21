@@ -17,7 +17,7 @@ public class Main {
         Guitar myGuiter  = new Guitar();
         Trumpet myTrumpet = new Trumpet();
 
-        System.out.println();
+        System.out.println(myTrumpet.createSound());
 
 
     }
