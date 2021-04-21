@@ -28,7 +28,7 @@ public class Main {
         Shoe myShoe = new Shoe() {
             @Override
             public void getLaces() {
-                System.out.println("You have nice laces!");
+                System.out.println("You have nice laces!!");
 
             }
         };
