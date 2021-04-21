@@ -1,4 +1,4 @@
-package com.tts;
+package com.tts.day3;
 
 public interface Driveable {
     // this is my driveable interface

@@ -1,4 +1,4 @@
-package com.tts;
+package com.tts.day3;
 
 // a class is a blueprint to create an object
 // an object is going to be an instance of class
