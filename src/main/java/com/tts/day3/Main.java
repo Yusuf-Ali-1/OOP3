@@ -16,6 +16,7 @@ public class Main {
     //entrypoint
     public static void main(String[] args) {
 
+        System.out.println("==== Vehicle, myGuiter,myTrumpet and Shoe Examples === ");
         // make an instance of vehicle
         Vehicle myVehicle = new Vehicle();
         System.out.println(myVehicle.wheels);
