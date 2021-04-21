@@ -66,7 +66,7 @@ public class Main {
         //        myLightTruck.transferCase.setNumGears(4);
         System.out.println(myLightTruck.transferCase.getNumGears());
 
-        System.out.println("====== Dealership ====");
+        System.out.println("\n====== Dealership ====");
 
         /// Set myLightTruck VehicleClassification to NEW
         myLightTruck.setVehicleClassification(VehicleClassification.NEW);
@@ -79,7 +79,7 @@ public class Main {
         // This method below is illegal
         //VehicleClassification vehicleClassification = new VehicleClassification();
 
-        System.out.println("===== Department =====");
+        System.out.println("\n===== Department =====");
 
         Department serviceDepartment = DepartmentFactory.
                 CreateDepartment(DepartmentNames.SERVICE);
@@ -96,7 +96,11 @@ public class Main {
         depts.add(financialDepartment);
         depts.add(salesDepartment);
 
-        System.out.println("The elements of depts are: " + depts);
+
+
+
+
+
 
 
 
