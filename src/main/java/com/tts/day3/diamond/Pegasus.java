@@ -8,6 +8,6 @@ public class Pegasus implements Speakable , Flyable{
 
     @Override
     public void doFly() {
-        System.out.println("This legend flew ");
+        System.out.println("This legend can fly! ");
     }
 }
