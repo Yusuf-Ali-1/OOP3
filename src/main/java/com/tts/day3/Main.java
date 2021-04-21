@@ -4,6 +4,8 @@ import com.tts.day3.abs.Guitar;
 import com.tts.day3.abs.Shoe;
 import com.tts.day3.abs.Trumpet;
 import com.tts.day3.abs.WingTips;
+import com.tts.day3.enumeration.Day;
+import com.tts.day3.enumeration.EnumTest;
 
 // a class is a blueprint to create an object
 // an object is going to be an instance of class
@@ -37,6 +39,14 @@ public class Main {
         wingTips.getLaces();
         wingTips.getLaces();
 
+        System.out.println("====== Enums  =====");
+
+
+        EnumTest weekday = new EnumTest(Day.MONDAY);
+        weekday.weekendOrWeekday();
+
+        EnumTest weekend = new EnumTest(Day.SATURDAY);
+        weekend.weekendOrWeekday();
 
 
 
