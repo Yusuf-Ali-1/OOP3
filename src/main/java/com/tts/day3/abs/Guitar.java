@@ -7,7 +7,7 @@ public class Guitar extends Instrument{
     @Override
     public boolean isThisAnInstrument(boolean value) {
         super.isThisAnInstrument(value);
-        return value;
+        return false;
     }
 
     @Override
