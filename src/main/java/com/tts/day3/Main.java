@@ -5,6 +5,7 @@ import com.tts.day3.abs.Shoe;
 import com.tts.day3.abs.Trumpet;
 import com.tts.day3.abs.WingTips;
 import com.tts.day3.dealership.LightTruck;
+import com.tts.day3.dealership.VehicleClassification;
 import com.tts.day3.enumeration.Day;
 import com.tts.day3.enumeration.EnumTest;
 
@@ -57,6 +58,11 @@ public class Main {
 
         //        myLightTruck.transferCase.setNumGears(4);
         System.out.println(myLightTruck.transferCase.getNumGears());
+
+        System.out.println("====== Dealership ====");
+
+        myLightTruck.setVehicleClassification(VehicleClassification.NEW);
+
 
 
 
