@@ -4,6 +4,8 @@ public class Bike implements Driveable{
     public int speed;
     public int gear;
 
+    // whenever we have filled methods
+    // in class, those methods are "concrete"
     @Override
     public void changeGear(int a) {
         gear = a;
